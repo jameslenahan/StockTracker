@@ -6,4 +6,4 @@ def getdata(stock):
     company_quote = company_quote.json()
     share_price = float("{0:.2f}".format(company_quote[0]['price']))
 
-print(getdata("aapl"))
+print(getdata("msft"))
